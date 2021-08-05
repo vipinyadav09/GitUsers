@@ -1,9 +1,11 @@
 import React from "react";
-const App = ()=>{
+import UseEffectAPI from './components/useEffects/useEffectAPI'
 
+const App = ()=>{
   return(
     <>
-    <h1>hiii</h1>
+    <UseEffectAPI/>
+   
     </>
   )
 }
