@@ -1,11 +1,9 @@
 import React from "react";
-import GetList from './components/GetList'
-import Search from "./components/Search";
+import GetList from './components/GetList';
 
 const App = ()=>{
   return(
     <>
-    <Search/>
     <GetList/> 
    
     </>

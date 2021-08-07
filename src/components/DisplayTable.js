@@ -1,5 +1,4 @@
 import React from "react";
-
 const DisplayTable = ({ data, repositories }) => {
   return (
     <table className="ui celled table">
