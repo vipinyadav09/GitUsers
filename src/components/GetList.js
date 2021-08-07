@@ -22,10 +22,17 @@ const GetList = ()=>{
         const repositories = await fetch(profileJson.repos_url);
         const repoJson = await repositories.json();
         console.log(repoJson);    
-        if (profileJson) {        
+        if (profileJson) {  
+        scrollToTop();      
         search.current.setDataFromList(name, profileJson, repoJson)
         }
-      };     
+      };  
+      const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      };   
    
   return (
       <>   
