@@ -1,10 +1,12 @@
 import React from "react";
-import UseEffectAPI from './components/useEffects/useEffectAPI'
+import GetList from './components/GetList'
+import Search from "./components/Search";
 
 const App = ()=>{
   return(
     <>
-    <UseEffectAPI/>
+    <Search/>
+    <GetList/> 
    
     </>
   )

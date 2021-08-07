@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.searchbar{
+  width: 50%;
+  height: auto;
+  margin: 0, auto;
+  text-align: center;
+}
+.searchbar input{
+  margin: 30px , 0;
+  padding: 5px, 10 px;
+  border-radius: 5px;
+  font-family: source-code-pro, Menlo, Monaco, consolas,"Courier New";
+}
